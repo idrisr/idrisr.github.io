@@ -29,15 +29,4 @@ x = np.random.normal(np.linspace(0, 1, 1000))
 plt.plot(x)
 ```
 
-
-
-
-    [<matplotlib.lines.Line2D at 0x7fac90819750>]
-
-
-
-
-    
-<img src="/assets/images/2021-04-29-jakes-site_files/2021-04-29-jakes-site_2_1.png">
-    
-
+<img src="{{site.baseurl | append:"/assets/images/2021-04-29-jakes-site_files/2021-04-29-jakes-site_2_1.png"}}">
