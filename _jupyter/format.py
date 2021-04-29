@@ -22,7 +22,7 @@ def ipynb(nb):
         filedata = file.read()
     filedata = re.sub(r"!\[svg\]\(", '<img src="/assets/images/', filedata)
     filedata = re.sub(".svg\)", '.svg">', filedata)
-    filedata = re.sub(r"!\[png\]\(", '<img src="/assets/images/', filedata)
+    filedata = re.sub(r"!\[png\]\(", '<img src="{{site.baseurl | append: "/assets/images/"}}', filedata)
     filedata = re.sub(".png\)", '.png">', filedata)
     with open(nb, "w") as file:
         file.write(filedata)
