@@ -8,6 +8,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+baseurl: /glowing-palm-tree
 
 # Build settings
 markdown: kramdown
