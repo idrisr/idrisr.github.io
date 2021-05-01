@@ -38,5 +38,4 @@ plt.plot(x)
 
     
 <img src="{{site.baseurl | append: "/assets/images/"}}2021-04-29-jakes-site_files/2021-04-29-jakes-site_2_1.png">
-    
 
