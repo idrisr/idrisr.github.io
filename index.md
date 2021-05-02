@@ -1,12 +1,6 @@
 ---
 layout: home
 author_profile: true
-toc: true
+<!-- permalink: / -->
+<!-- title: welcome -->
 ---
-
-# This is a test
-yes, a test
-
-## Why a test?
-
-Because
