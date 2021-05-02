@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Regression Differences in R & Python StatsModels"
 date: 2014-09-26 15:24
 comments: true
 published: true
+toc: true
 ---
 
 I'm taking the Coursera Regression

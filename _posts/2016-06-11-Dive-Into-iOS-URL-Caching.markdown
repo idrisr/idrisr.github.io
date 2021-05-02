@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Part 1. Network Caching and iOS"
 date:   2016-06-11 21:35:12
 published: true
+toc: true
 ---
 
 All but the most trivial apps use some sort of network resource. That means sending bytes through a WiFi or cellular connection, usually to some server deep in the bowels of a data center. The difference between accessing data on a network and accessing local data on disk or memory can be as much as 200 times slower. See [here](http://norvig.com/21-days.html#answers) if you don't believe me.

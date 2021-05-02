@@ -1,8 +1,8 @@
 ---
-layout: post
 title: "Complexity in k-nearest-neighbors modelling"
 date: 2012-04-09 22:02
 comments: true
+toc: true
 published: true
 ---
 

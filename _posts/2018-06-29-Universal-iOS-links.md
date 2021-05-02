@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Universal Links & Associated Domains"
 date:   2018-06-29 21:37:12
 published: true
+toc: true
 ---
 
 You have an app, you also have a website. You have links which typically open

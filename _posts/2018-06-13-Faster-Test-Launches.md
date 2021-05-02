@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Faster iOS Test Launches"
 date:   2018-06-13 21:37:12
 published: true
+toc: true
 ---
 
 I detest waiting for the simulator to launch to run tests, especially when the

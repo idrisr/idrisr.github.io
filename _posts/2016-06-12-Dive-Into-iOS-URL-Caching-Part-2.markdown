@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Part 2. Network Caching and iOS"
 date:   2016-06-12 21:35:12
 published: true
+toc: true
 ---
 
 When we last left off from [Part 1]({% post_url 2016-06-11-Dive-Into-iOS-URL-Caching %}) , we saw that the server was

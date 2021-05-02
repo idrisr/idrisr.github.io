@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "LIRC multi-GPIO output for the Raspberry Pi"
 date: 2014-05-29 16:44
 comments: true
 published: true
+toc: true
 ---
 
 LIRC gives your Raspberry Pi infrared superpowers, but the current included version (as of rpi-3.12.y) does not allow for controlling multiple IR LEDs simultaneuously. Bengt Martensson updated the source to make this possible, but you probably have to recompile the kernel and modules and install them on to your Rasperry Pi. This took me a while to figure out, so I thought I'd document the steps here.

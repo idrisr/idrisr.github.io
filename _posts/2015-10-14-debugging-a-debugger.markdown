@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Debugging a Debugger"
 date:   2015-10-12 21:35:12
 published: true
+toc: true
 ---
 
 [LLDB](http://lldb.llvm.org/) is the debugger that ships automatically with XCode. Everyhing you can do with LLDB is also available through a Python API so you can write python code to programmatically debug anything that you write using XCode, including C, Objective-C, Swift, and C++.

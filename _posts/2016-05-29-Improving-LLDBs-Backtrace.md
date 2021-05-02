@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Improving LLDB's backtrace to be more like GDB's full backtrace"
 date:   2016-05-29 21:35:12
 published: true
+toc: true
 ---
 
 [LLDB](http://lldb.llvm.org/) is a big step up from [GDB](https://www.gnu.org/software/gdb/), but some of the default behavior of GDB is better than LLDB.

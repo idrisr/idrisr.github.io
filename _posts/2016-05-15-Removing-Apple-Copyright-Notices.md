@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  "Removing Long and Annoying Apple Copyright Headers"
 date:   2016-05-15 21:35:12
 published: true
+toc: true
 ---
 
 Apple provides a lot of sample iOS projects that are a great way to get started
