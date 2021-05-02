@@ -9,6 +9,7 @@ github_username: idrisr
 minimal_mistakes_skin: mint
 search: true
 baseurl: ""
+word_per_minute: 80
 
 # Build settings
 markdown: kramdown
