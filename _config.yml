@@ -33,7 +33,7 @@ plugins:
 
 author:
   name   : "Hippo Plant"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/noun_hippo_3839051.png"
   bio    : "iOS, Machine Learning, and Math"
   links:
     - label: "Website"
