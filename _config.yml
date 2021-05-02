@@ -8,7 +8,7 @@ twitter_username: hippoplant
 github_username: idrisr
 minimal_mistakes_skin: mint
 search: true
-baseurl: /glowing-palm-tree
+baseurl: ""
 
 # Build settings
 markdown: kramdown
