@@ -1,7 +1,9 @@
 ---
+title: "Using Kaggle API and skipping the command line"
+comments: true
+toc: true
 ---
 
-# Using Kaggle API and skipping the command line
 
 
 ```python
