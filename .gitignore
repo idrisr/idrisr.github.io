@@ -1,7 +1,3 @@
 _site
-.sass-cache
-.jekyll-metadata
-Gemfile.lock
-venv/
-.ipynb_checkpoints/
-moveme/
+_cache
+.stack-work
