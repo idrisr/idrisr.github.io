@@ -1,0 +1,17 @@
+cabal-version: 3.0
+name:          renameme
+version:       0.1.0.0
+license:       MIT
+build-type:    Simple
+
+common warnings
+  ghc-options:        -Wall
+  default-language:   Haskell2010
+  default-extensions: NoStarIsType
+  build-depends:
+    , base    ^>=4.18.2.1
+    , hakyll
+
+executable exe
+  import:  warnings
+  main-is: site.hs

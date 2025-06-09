@@ -1,0 +1,14 @@
+session_name: idrisraja
+windows:
+  - window_name: haskell
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - cd /home/hippoid/fun/idrisraja
+    options:
+      main-pane-width: 80
+
+  - window_name: latex
+    layout: tiled
+    shell_command_before:
+      - cd /home/hippoid/fun/idrisraja/doc && git status

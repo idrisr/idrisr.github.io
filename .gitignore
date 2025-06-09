@@ -1,0 +1,6 @@
+_cache
+dist-newstyle
+.envrc
+result
+.devenv
+.direnv
