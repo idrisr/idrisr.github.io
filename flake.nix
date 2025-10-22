@@ -9,7 +9,7 @@
       system = flake-utils.lib.system.x86_64-linux;
       pkgs = nixpkgs.legacyPackages.${system};
     in {
-      packages.${system}.site = pkgs.haskellPackages.callPackage ./site { };
+      packages.${system}.site = pkgs.haskellPackages.callPackage ./. { };
       defaultPackage.${system} = self.packages.${system}.site;
     };
 }

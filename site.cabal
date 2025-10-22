@@ -1,5 +1,5 @@
 cabal-version: 3.0
-name:          renameme
+name:          idrisraja
 version:       0.1.0.0
 license:       MIT
 build-type:    Simple
