@@ -1,15 +1,40 @@
 {
   description = "idrisraja.com site";
 
-  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+  inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
-  outputs = { self, nixpkgs, flake-utils, ... }:
-    let
-      system = flake-utils.lib.system.x86_64-linux;
-      pkgs = nixpkgs.legacyPackages.${system};
-    in {
-      packages.${system}.site = pkgs.haskellPackages.callPackage ./. { };
-      defaultPackage.${system} = self.packages.${system}.site;
-    };
+  outputs = { nixpkgs, flake-utils, ... }:
+    flake-utils.lib.eachDefaultSystem
+      (system:
+        let
+          pkgs = nixpkgs.legacyPackages.${system};
+          compiler = "ghc984";
+        in
+        {
+          packages =
+            rec {
+              site = pkgs.haskellPackages.callPackage ./. { };
+              default = site;
+            };
+
+          devShells.default = pkgs.mkShell
+            {
+              buildInputs =
+                with pkgs.haskell.packages."${compiler}";
+                [
+                  fourmolu
+                  cabal-fmt
+                  implicit-hie
+                  ghcid
+                  cabal2nix
+                  ghc
+                  pkgs.ghciwatch
+                  cabal-install
+                  pkgs.haskell-language-server
+                  pkgs.zlib
+                ];
+            };
+        }
+      );
 }
